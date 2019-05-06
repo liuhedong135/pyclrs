@@ -8,7 +8,7 @@ Print color on Linux or Windows terminals.
 ```bash
 pip install pyclrs
 ```
-![https://github.com/liuhedong135/pyclrs/blob/master/install.gif]()
+![install](#https://raw.githubusercontent.com/liuhedong135/pyclrs/master/install.gif)
 <br>
 
 
