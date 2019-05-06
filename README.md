@@ -3,13 +3,25 @@ Print color on Linux or Windows terminals.
 
 <br>
 
-# 1. Functions
+# 1. Install
+
+```bash
+pip install pyclrs
+```
+
+<br>
+
+---
+
+<br>
+
+# 2. Functions
 ```python
 from pyclrs.color import Use
 c = Use('Hello World')
 ``` 
 
-## 1.1 Color
+## 2.1 Color
 
 - **black** 
   - *`c.backblack()`* or *`c.foreblack`*
@@ -30,7 +42,7 @@ c = Use('Hello World')
 
 <br>
 
-## 1.2 Mode
+## 2.2 Mode
 
 - **default**
   - *`c.default()`*
@@ -51,11 +63,11 @@ c = Use('Hello World')
 
 <br>
 
-# 2. Example
+# 3. Example
 
 <br>
 
-## 2.1 Simple Use
+## 3.1 Simple Use
 
 ```python
 from pyclrs.color import Use
@@ -76,7 +88,7 @@ print(p3.excute())
 
 <br>
 
-## 2.2 Check the state of server
+## 3.2 Check the state of server
 ```python
 title = Use('%-17s%-10s%-10s'%("Ipaddr","Server","Status"))
 title.backcyan()
