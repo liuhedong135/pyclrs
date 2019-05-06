@@ -8,7 +8,7 @@ Print color on Linux or Windows terminals.
 ```bash
 pip install pyclrs
 ```
-![install](https://raw.githubusercontent.com/liuhedong135/pyclrs/master/install.gif)
+![install](https://github.com/liuhedong135/pyclrs/blob/master/photo/install.gif)
 <br>
 
 
@@ -71,6 +71,8 @@ c = Use('Hello World')
 
 ## 3.1 Simple Use
 
+![simple](https://github.com/liuhedong135/pyclrs/blob/master/photo/simple.gif)
+
 ```python
 from pyclrs.color import Use
 
@@ -91,7 +93,12 @@ print(p3.excute())
 <br>
 
 ## 3.2 Check the state of server
+
+![check](https://github.com/liuhedong135/pyclrs/blob/master/photo/check.gif)
+
 ```python
+from pyclrs.color import Use
+
 title = Use('%-17s%-10s%-10s'%("Ipaddr","Server","Status"))
 title.backcyan()
 title.foreblack()
